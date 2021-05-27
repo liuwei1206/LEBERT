@@ -69,9 +69,39 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
         * vocab.txt
         * pytorch_model.bin 
 * dataset
+    * NER
+        * weibo
+        * note4
+        * msra
+        * resume 
+    * POS
+        * ctb5
+        * ctb6
+        * ud1
+        * ud2 
+    * CWS  
+        * ctb6
+        * msr
+        * pku 
 * vocab
+    * tencent_vocab.txt 
 * embedding
+    * word_embedding.txt 
 * result
+    * NER
+        * weibo
+        * note4
+        * msra
+        * resume 
+    * POS
+        * ctb5
+        * ctb6
+        * ud1
+        * ud2 
+    * CWS  
+        * ctb6
+        * msr
+        * pku 
 * log
 
 # Run
