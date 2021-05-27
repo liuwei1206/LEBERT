@@ -43,11 +43,11 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 # Chinese BERT，Chinese Word Embedding, and Checkpoints
 ### Chinese BERT
 
-Chinese BERT: 
+Chinese BERT: https://cdn.huggingface.co/bert-base-chinese-pytorch_model.bin
 
 ### Chinese word embedding: 
 
-Word Embedding
+Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEmbedding.tar.gz
 
 ### Checkpoints
 on the way
@@ -65,7 +65,22 @@ on the way
 
 If you want to load my checkpoints, we should make some revise to your transformers.
 
+* Enter the source code director of Transformer, `cd source/transformers-master`
+* Find the modeling_util.py, and positioned to about 995 lines
+* change the code as follows:
+![image](https://user-images.githubusercontent.com/34615810/119770324-9bc7f980-beee-11eb-9547-9e0e9b1c3180.png)
+
+* Compile the revised source code and install. `python3 setup.py install`
+
 
 # Cite
 
+@misc{liu2021lexicon,
+      title={Lexicon Enhanced Chinese Sequence Labeling Using BERT Adapter}, 
+      author={Wei Liu and Xiyan Fu and Yue Zhang and Wenming Xiao},
+      year={2021},
+      eprint={2105.07148},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
