@@ -19,6 +19,7 @@ Arxiv link of the paper: https://arxiv.org/abs/2105.07148
 * multiprocess 0.70.10
 * tensorflow 2.3.1
 * tensorboardX 2.1
+* seqeval 1.2.1
 
 # Input Format
 CoNLL format (prefer BIOES tag scheme), with each character its label for one line. Sentences are splited with a null line.
