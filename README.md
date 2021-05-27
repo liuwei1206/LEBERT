@@ -52,7 +52,7 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
 
 ### Checkpoints
 
-* [Weibo NER](https://drive.google.com/file/d/1HP-Fc06dMN1jqxoRivLwtAJvQm3MG64Y/view?usp=sharing)
+* [Weibo NER](https://drive.google.com/drive/u/0/folders/1ldZjlc-SsZvxuRXf6vUq7JE03g6SVte6)
 
 # Run
 
