@@ -54,16 +54,13 @@ on the way
 
 # Run
 
-* 1.Convert .char.bmes file to .json file
+* 1.Convert .char.bmes file to .json file, `python3 to_json.py`
 
-`python3 to_json.py`
-
-* 2.run the shell
-
-`sh run_ner.sh`
+* 2.run the shell, `sh run_ner.sh`
 
 
-If you want to load my checkpoints, we should make some revise to your transformers.
+
+#### If you want to load my checkpoints, we should make some revise to your transformers.
 
 * Enter the source code director of Transformer, `cd source/transformers-master`
 * Find the modeling_util.py, and positioned to about 995 lines
@@ -74,7 +71,7 @@ If you want to load my checkpoints, we should make some revise to your transform
 
 
 # Cite
-
+```
 @misc{liu2021lexicon,
       title={Lexicon Enhanced Chinese Sequence Labeling Using BERT Adapter}, 
       author={Wei Liu and Xiyan Fu and Yue Zhang and Wenming Xiao},
@@ -83,4 +80,4 @@ If you want to load my checkpoints, we should make some revise to your transform
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-
+```
