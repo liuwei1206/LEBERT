@@ -50,7 +50,7 @@ Chinese BERT: https://cdn.huggingface.co/bert-base-chinese-pytorch_model.bin
 
 Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEmbedding.tar.gz
 
-### Checkpoints
+### Checkpoints and Shells
 
 * [Weibo NER](https://drive.google.com/file/d/1HP-Fc06dMN1jqxoRivLwtAJvQm3MG64Y/view?usp=sharing)
 * [Ontonote4 NER](https://drive.google.com/file/d/1Tr_G-aK32cCfeJXd8f3mAU9reo-KHRKu/view?usp=sharing)
