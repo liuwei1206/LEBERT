@@ -52,7 +52,17 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
 
 ### Checkpoints
 
-* [Weibo NER](https://drive.google.com/drive/u/0/folders/1ldZjlc-SsZvxuRXf6vUq7JE03g6SVte6)
+* [Weibo NER](https://drive.google.com/file/d/1HP-Fc06dMN1jqxoRivLwtAJvQm3MG64Y/view?usp=sharing)
+* [Ontonote4 NER](https://drive.google.com/file/d/1Tr_G-aK32cCfeJXd8f3mAU9reo-KHRKu/view?usp=sharing)
+* [MSRA NER](https://drive.google.com/file/d/1QsTiTPovvrhQ-xxSbRh9DV45-svCcWNH/view?usp=sharing)
+* [Resume NER](https://drive.google.com/file/d/1ES8uMSAq3pE8MRpiOBKYNWr0qXq9j93r/view?usp=sharing)
+* [CTB5 POS](https://drive.google.com/file/d/1ES8uMSAq3pE8MRpiOBKYNWr0qXq9j93r/view?usp=sharing)
+* [CTB6 POS](https://drive.google.com/file/d/1J16IbWxW1Rbx5ycDPw7JWWxzjpeFDJbN/view?usp=sharing)
+* [UD1 POS](https://drive.google.com/file/d/1ic1OTCdskn7P8QDPSfyxy_o5ouPXQ06o/view?usp=sharing)
+* [UD2 POS](https://drive.google.com/file/d/1F0EL5YV7tGkYqDATXXhVDUFVoj9z-oVK/view?usp=sharing)
+* [CTB6 CWS](https://drive.google.com/file/d/1FahANYMK27uVwinBvY6SXubSzVAdaYqC/view?usp=sharing)
+* [MSR CWS](https://drive.google.com/file/d/1EtHv3bv9bYVLbXg-YrnsGV-BiVLVVBs-/view?usp=sharing)
+* [PKU CWS](https://drive.google.com/file/d/117Rb-JvQiLpSlbrWTebZW9Y4dDf-I0sR/view?usp=sharing)
 
 # Run
 
