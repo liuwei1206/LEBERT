@@ -48,9 +48,11 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 # Run
 
 * 1.Convert .char.bmes file to .json file
+
 `python3 to_json.py`
 
 * 2.run the shell
+
 `sh run_ner.sh`
 
 
