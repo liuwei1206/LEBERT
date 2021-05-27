@@ -40,10 +40,17 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 生   O   
 ```
 
-# Pretrained BERT and Embedding
+# Chinese BERT，Chinese Word Embedding, and Checkpoints
+### Chinese BERT
 
-* Chinese BERT: 
-* Chinese word embedding: 
+Chinese BERT: 
+
+### Chinese word embedding: 
+
+Word Embedding
+
+### Checkpoints
+on the way
 
 # Run
 
