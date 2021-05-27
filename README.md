@@ -2,9 +2,6 @@
 
 Code and checkpoints for the ACL2021 paper "Lexicon Enhanced Chinese Sequence Labelling Using BERT Adapter"
 
-
-Checkpoints will be released soon. Please be patient.
-
 Arxiv link of the paper: https://arxiv.org/abs/2105.07148
 
 # Requirement
