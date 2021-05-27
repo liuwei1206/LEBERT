@@ -46,7 +46,8 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 * Chinese word embedding: 
 
 # Run
-* 1. Convert .char.bmes file to .json file
+
+* 1.Convert .char.bmes file to .json file
 `python3 to_json.py`
 
 * 2.run the shell
