@@ -61,6 +61,19 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
 * [MSR CWS](https://drive.google.com/file/d/1EtHv3bv9bYVLbXg-YrnsGV-BiVLVVBs-/view?usp=sharing)
 * [PKU CWS](https://drive.google.com/file/d/117Rb-JvQiLpSlbrWTebZW9Y4dDf-I0sR/view?usp=sharing)
 
+# Directory Structure of data
+
+* berts
+    * bert
+        * config.json
+        * vocab.txt
+        * pytorch_model.bin 
+* dataset
+* vocab
+* embedding
+* result
+* log
+
 # Run
 
 * 1.Convert .char.bmes file to .json file, `python3 to_json.py`
