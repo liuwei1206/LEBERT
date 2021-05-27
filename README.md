@@ -60,7 +60,9 @@ on the way
 
 
 
-#### If you want to load my checkpoints, we should make some revise to your transformers.
+#### If you want to load my checkpoints, you need to make some revisions to your transformers.
+
+My model is trained in distribution mode so it can not be directly loaded by single-GPU mode. You can follow the below steps to revise the transformers before load my checkpoints.
 
 * Enter the source code director of Transformer, `cd source/transformers-master`
 * Find the modeling_util.py, and positioned to about 995 lines
