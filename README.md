@@ -84,7 +84,7 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
         * msr
         * pku 
 * vocab
-    * tencent_vocab.txt 
+    * tencent_vocab.txt, the vocab of pre-trained word embedding table. 
 * embedding
     * word_embedding.txt 
 * result
