@@ -11,7 +11,7 @@ Arxiv link of the paper: https://arxiv.org/abs/2105.07148
 * Numpy 1.18.5
 * Packaging 17.1
 * skicit-learn 0.23.2
-* torch 1.16.0+cu92
+* torch 1.6.0+cu92
 * tqdm 4.50.2
 * multiprocess 0.70.10
 * tensorflow 2.3.1
