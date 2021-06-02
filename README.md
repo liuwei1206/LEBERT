@@ -68,7 +68,7 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
         * config.json
         * vocab.txt
         * pytorch_model.bin 
-* dataset
+* dataset, you can download from [here](https://drive.google.com/file/d/1jeZu6vczASCaClmC6pLO_o7NOHm5_TVD/view?usp=sharing) 
     * NER
         * weibo
         * note4
@@ -84,7 +84,7 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
         * msr
         * pku 
 * vocab
-    * tencent_vocab.txt, the vocab of pre-trained word embedding table. 
+    * tencent_vocab.txt, the vocab of pre-trained word embedding table, downlaod from [here](https://drive.google.com/file/d/1UmtbCSPVrXBX_y4KcovCknJFu9bXXp12/view?usp=sharing). 
 * embedding
     * word_embedding.txt 
 * result
