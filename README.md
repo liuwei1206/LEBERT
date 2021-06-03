@@ -4,6 +4,8 @@ Code and checkpoints for the ACL2021 paper "Lexicon Enhanced Chinese Sequence La
 
 Arxiv link of the paper: https://arxiv.org/abs/2105.07148
 
+If any questions, please contact the email: willie1206@163.com
+
 # Requirement
 
 * Python 3.7.0
