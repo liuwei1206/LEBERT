@@ -70,7 +70,7 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
         * config.json
         * vocab.txt
         * pytorch_model.bin 
-* dataset, you can download from [here](https://drive.google.com/file/d/1jeZu6vczASCaClmC6pLO_o7NOHm5_TVD/view?usp=sharing) 
+* dataset, you can download from here ;[here](https://drive.google.com/file/d/1jeZu6vczASCaClmC6pLO_o7NOHm5_TVD/view?usp=sharing) 
     * NER
         * weibo
         * note4
