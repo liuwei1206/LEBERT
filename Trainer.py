@@ -130,8 +130,6 @@ def get_optimizer(model, args, num_training_steps):
     we provide a reasonable default that works well
     If you want to use something else, you can pass a tuple in the Trainer's init,
     or override this method in a subclass.
-    Args:
-        optim_type: AdamW or SGD
     """
     no_bigger = ["word_embedding", "attn_w", "word_transform", "word_word_weight", "hidden2tag",
                  "lstm", "crf"]
@@ -550,10 +548,7 @@ def main():
         model = BertWordLSTMCRFForTokenClassification.from_pretrained(
             args.model_name_or_path, config=config,
             pretrained_embeddings=pretrained_word_embedding,
-            num_labels=label_vocab.get_item_size(),
-            word_pooling_type=args.word_pooling_type,
-            do_transform=args.do_transform,
-            fix_bert = args.fix_bert
+            num_labels=label_vocab.get_item_size()
         )
 
     if not args.no_cuda:
