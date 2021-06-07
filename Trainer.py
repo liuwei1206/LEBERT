@@ -52,6 +52,13 @@ except ImportError:
     except ImportError:
         print("No Tensorboard Found!!!")
 
+
+### to enable fp16 training, note pytorch >= 1.16.0 #########
+# from torch.cuda.amp import autocast
+from apex import amp
+_use_apex = True
+_use_native_amp = False
+    
 ###### for multi-gpu DistributedDataParallel training  #########
 os.environ['NCCL_DEBUG'] = 'INFO' # print more detailed NCCL log information
 os.environ['NCCL_IB_DISABLE'] = '1' # force IP sockets usage
