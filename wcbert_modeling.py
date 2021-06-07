@@ -528,8 +528,6 @@ class BertWordLSTMCRFForTokenClassification(BertPreTrainedModel):
         self.bert = BertModel(config)
         self.dropout = nn.Dropout(config.HP_dropout)
 
-        self.word_pooling_type = word_pooling_type
-
         self.act = nn.Tanh()
         self.word_transform = nn.Linear(config.word_embed_dim, config.hidden_size)
         self.word_word_weight = nn.Linear(config.hidden_size, config.hidden_size)
