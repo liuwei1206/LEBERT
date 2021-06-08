@@ -43,7 +43,7 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 # Chinese BERT，Chinese Word Embedding, and Checkpoints
 ### Chinese BERT
 
-Chinese BERT: https://cdn.huggingface.co/bert-base-chinese-pytorch_model.bin
+Chinese BERT: https://huggingface.co/bert-base-chinese/tree/main <!--https://cdn.huggingface.co/bert-base-chinese-pytorch_model.bin-->
 
 ### Chinese word embedding: 
 
