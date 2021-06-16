@@ -110,7 +110,7 @@ Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEm
 
 * 1.Convert .char.bmes file to .json file, `python3 to_json.py`
 
-* 2.run the shell, `sh run_ner.sh`
+* 2.run the shell, `sh run_demo.sh`
 
 
 
