@@ -88,9 +88,6 @@ class BertEmbeddings(nn.Module):
 class BertLayer(nn.Module):
     """
     we modify the module to add word embedding information into the transformer
-    integrate_type: 0. add to embedding
-                    1. add after self-attention but before FFN
-                    2. add after FFN
     """
 
     def __init__(self, config, has_word_attn=False):
