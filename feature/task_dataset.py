@@ -129,7 +129,7 @@ class TaskDataset(Dataset):
                             now_words = matched_words[idy]
                             now_word_ids = self.word_vocab.convert_items_to_ids(now_words)
                             matched_word_ids[idy][:len(now_word_ids)] = now_word_ids
-                            matched_word_mask[idy][:len(matched_word_ids)] = 1
+                            matched_word_mask[idy][:len(now_word_ids)] = 1
 
                         if print_flag:
                             print("核对%s中id和词是否匹配: "%(self.file))
