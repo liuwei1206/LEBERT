@@ -47,7 +47,13 @@ Chinese BERT: https://huggingface.co/bert-base-chinese/tree/main <!--https://cdn
 
 ### Chinese word embedding: 
 
-Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEmbedding.tar.gz
+~~Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEmbedding.tar.gz~~
+
+The original download link does not work. We update it as: 
+
+Word Embedding: https://ai.tencent.com/ailab/nlp/en/data/tencent-ailab-embedding-zh-d200-v0.2.0.tar.gz
+
+More info refers to: [Tencent AI Lab Word Embedding](https://ai.tencent.com/ailab/nlp/en/embedding.html)
 
 ### Checkpoints and Shells
 
